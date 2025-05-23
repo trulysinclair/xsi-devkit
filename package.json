@@ -20,6 +20,6 @@
     "clean": true,
     "format": "esm"
   },
-  "private": true,
+  "private": false,
   "packageManager": "yarn@4.9.1"
 }
