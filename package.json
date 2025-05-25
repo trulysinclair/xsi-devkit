@@ -2,6 +2,16 @@
   "name": "xsi-devkit",
   "version": "0.1.2",
   "description": "The Unofficial Cisco Broadworks Xtended Services Interface DevKit",
+  "keywords": [
+    "cisco",
+    "xsi",
+    "broadworks",
+    "broadsoft"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trulysinclair/xsi-devkit"
+  },
   "main": "dist/index.js",
   "type": "module",
   "scripts": {

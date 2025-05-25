@@ -2,6 +2,16 @@
 
 The Unofficial Cisco Broadworks Xtended Services Interface DevKit.
 
+I'm currently working on going over the entire XSI manual that I own and writing this library around it. I've done a lot
+of trial and error working with XSI at work and so I'm doing what seems to work.
+
+## Roadmap
+
+- [ ] Raw XML support
+- [ ] Library around `openapi-fetch`
+- [ ] Fully typed API coverage
+- [ ] Digitized docs, starting with GitHub Wiki?
+
 ## Installation & Setup
 
 ```bash
