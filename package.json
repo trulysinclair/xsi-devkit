@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsup src",
     "build:types": "openapi-typescript",
-    "changelog": "auto-changelog -p"
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "devDependencies": {
     "@types/node": "^22.15.21",
