@@ -50,7 +50,3 @@ export const xsiEvents = ({
     'Content-Type': 'application/json',
   }
 })
-
-const t = xsiActions({
-  ho
-})
