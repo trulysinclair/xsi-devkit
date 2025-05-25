@@ -1,0 +1,8 @@
+.idea
+.yarn
+node_modules
+schemas
+src
+redocly.yml
+tsconfig.json
+yarn.lock

@@ -1,0 +1,9 @@
+apis:
+  xsi-events@v2:
+    root: ./schemas/xsi-events.yml
+    x-openapi-ts:
+      output: ./types/xsi-events.ts
+  xsi-actions@v2:
+    root: ./schemas/xsi-actions.yml
+    x-openapi-ts:
+      output: ./types/xsi-actions.ts

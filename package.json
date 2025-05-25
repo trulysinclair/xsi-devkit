@@ -1,11 +1,12 @@
 {
   "name": "xsi-devkit",
   "version": "0.0.0",
-  "description": "",
+  "description": "A devkit for working with the Cisco Broadworks XSI API.",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "build": "tsup src"
+    "build": "tsup src",
+    "build:types": "openapi-typescript"
   },
   "devDependencies": {
     "@types/node": "^22.15.21",
@@ -18,8 +19,12 @@
     ],
     "sourcemap": false,
     "clean": true,
-    "format": "esm"
+    "format": "esm",
+    "dts": true
   },
-  "private": false,
-  "packageManager": "yarn@4.9.1"
+  "packageManager": "yarn@4.9.1",
+  "dependencies": {
+    "openapi-fetch": "^0.14.0",
+    "openapi-typescript": "^7.8.0"
+  }
 }
