@@ -6,10 +6,12 @@
   "type": "module",
   "scripts": {
     "build": "tsup src",
-    "build:types": "openapi-typescript"
+    "build:types": "openapi-typescript",
+    "changelog": "auto-changelog"
   },
   "devDependencies": {
     "@types/node": "^22.15.21",
+    "auto-changelog": "^2.5.0",
     "tsup": "^8.5.0",
     "typescript": "^5.5.3"
   },
