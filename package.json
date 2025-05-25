@@ -1,6 +1,6 @@
 {
   "name": "xsi-devkit",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A devkit for working with the Cisco Broadworks XSI API.",
   "main": "dist/index.js",
   "type": "module",
